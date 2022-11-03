@@ -38,14 +38,13 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #3161E0;
 }
 
 /* # Navbar */
 
 .navbar {
   height: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,7 +53,9 @@ header {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+  background-color: #3161E0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar-menu {
@@ -64,6 +65,30 @@ header {
 
 .navbar-actions {
   text-align: right;
+
+}
+
+#logo{
+  height:65% ;
+
+}
+
+li{
+  display: inline;
+}
+
+.navbar-elements{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+button{
+  background-color: #ffffff;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 7px 13px;
+  border:none;
+ 
 }
 
 /* # Jumbotron */
