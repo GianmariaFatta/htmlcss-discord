@@ -37,6 +37,11 @@ body {
   background-color: lightgray;
 }
 
+.bg-gray-large{
+  background-color: lightgray;
+  min-height: 1200px;
+}
+
 header {
   background-color: #3161E0;
 }
@@ -109,12 +114,12 @@ button{
 h1{
   text-align: center;
   color: #ffffff;
-  font-size: 70px;
+  font-size: 64px;
   margin: 50px;
 }
 .jumbo-description{
   color: #ffffff;
-  font-size: 24px;
+  font-size: 21px;
   text-align: center;
   padding-bottom: 40px;
   line-height: 40px;
@@ -155,17 +160,45 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  /*background-color: pink;*/
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  /*background-color: dodgerblue;*/
 }
 
+.img-studygroup{
+  height: 100px%;
+}
+
+.title-section{
+  font-size: 47px;
+ }
+
+ .description-section{
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+ }
+
+
 .flex > .full-col {
-  flex-basis: 100%;
-  background-color: darkgreen;
+  min-height: 500px;
+  /*background-color: darkgreen;*/
+  padding: 50px;
+  text-align: center;
+}
+.title-end-page{
+  font-size: 32px;
+  margin: 77px;
+  background-image: url(..//img/stars.svg);
+  background-position:center;
+
+}
+.end-page{
+  background-color: #8EA1E1;
+  color: #ffffff;
 }
 
 /* # Footer */
@@ -210,10 +243,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
+ /* background-color: aquamarine;*/
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+ /* background-color: yellow;*/
 }
