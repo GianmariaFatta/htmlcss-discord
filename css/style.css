@@ -105,11 +105,9 @@ button{
   height: 700px;
   background-image:url(..//img/jumbo.png);
   background-size: cover ;
-  background-position:;
   background-attachment:local;
   display: flex;
   justify-content: center;
-  flex-wrap: ;
 }
 
 h1{
@@ -170,7 +168,7 @@ section > .container {
 }
 
 .img-studygroup{
-  height: 100px%;
+  height: 507px;
 }
 
 .title-section{
@@ -276,7 +274,7 @@ footer {
 .language-selector{
   background-color: transparent;
   color:#ffffff;
-  border-color: transparent;
+  border:none;
   margin: 20px 0;
   vertical-align: middle;
 }
